@@ -1,0 +1,23 @@
+type Pokemon {
+    id: ID!
+    name: String!
+    height: String!
+    weight: String!
+    sprites: Sprites!
+    types: [PokemonType]!
+}
+
+type Sprites {
+    front_default: String!
+    back_default: String!
+    front_shiny: String!
+    back_shiny: String!
+}
+
+type PokemonType {
+    type: Type
+}
+
+type Type {
+    name: String!
+}

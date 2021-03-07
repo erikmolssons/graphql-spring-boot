@@ -1,0 +1,4 @@
+type Query {
+    pokemons: [Pokemon]
+    pokemonById(id:ID!):Pokemon
+}
