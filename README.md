@@ -1,4 +1,4 @@
-#GraphQL Spring boot
+# GraphQL Spring boot
 Spring Boot web service with GraphQL & GraphiQL together with MongoDB, MongoDB Express. \
 sends async HTTP requests to https://pokeapi.co/ for mongodb seeding. \
 Fetches the first generation Pokemons.
